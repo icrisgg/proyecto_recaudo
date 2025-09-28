@@ -1,0 +1,8 @@
+transport_type,vehicle_id,route_id,passenger_age,passenger_gender,base_fare
+intermunicipal,BUS-101,R-10,35,F,10000
+intermunicipal,BUS-101,R-10,16,M,10000
+intermunicipal,BUS-202,R-11,12,F,8000
+interveredal,VAN-7,R-21,45,M,6000
+interveredal,VAN-7,R-21,10,F,6000
+interveredal,VAN-9,R-22,17,F,5000
+intermunicipal,BUS-202,R-11,20,F,8000
