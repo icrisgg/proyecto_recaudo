@@ -1,19 +1,19 @@
 from csv import DictReader
-from recaudo import Ticket, compute_stats
+from recaudo import compute_stats
 
-def cargar_csv(path: str):
+def cargar_csv(path):
     r = []
     with open(path, newline="", encoding="utf-8") as f:
         for row in DictReader(f):
             r.append(
-                Ticket(
-                    transport_type=row["transport_type"],
-                    vehicle_id=row["vehicle_id"],
-                    route_id=row["route_id"],
-                    passenger_age=int(row["passenger_age"]),
-                    passenger_gender=row["passenger_gender"],
-                    base_fare=float(row["base_fare"]),
-                )
+                {
+                    "transport_type": row["transport_type"],
+                    "vehicle_id": row["vehicle_id"],
+                    "route_id": row["route_id"],
+                    "passenger_age": int(row["passenger_age"]),
+                    "passenger_gender": row["passenger_gender"],
+                    "base_fare": float(row["base_fare"]),
+                }
             )
     return r
 
