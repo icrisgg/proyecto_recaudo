@@ -21,7 +21,7 @@ if __name__ == "__main__":
     data = cargar_csv("tickets.csv")
     stats = compute_stats(data)
 
-    print("\n📊 Resultados del Proyecto de Recaudo\n")
+    print("\n Resultados del Proyecto de Recaudo\n")
     print(f"1. Total recaudado: ${stats['total_revenue']:,}")
 
     print("\n2. Buseta(s) intermunicipal(es) con más recaudo:")
