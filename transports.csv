@@ -1,0 +1,7 @@
+vehicle_id,category
+BUS-101,buseta_intermunicipal
+BUS-202,buseta_intermunicipal
+BUS-303,buseta_intermunicipal
+VAN-7,buseta_interveredal
+VAN-9,buseta_interveredal
+MOTO-1,mototaxi

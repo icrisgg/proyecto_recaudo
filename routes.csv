@@ -1,0 +1,6 @@
+route_id,origin,destination,base_fare
+R-10,Vereda A,Vereda B,10000
+R-11,Vereda C,Vereda D,8000
+R-21,Vereda E,Vereda F,6000
+R-22,Vereda G,Vereda H,5000
+R-12,Municipio X,Municipio Y,12000
